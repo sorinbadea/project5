@@ -20,7 +20,7 @@ To continue the developement you need to follow these steps:
 	py -m venv C:\Users\s.badea\SQV\.venv
 
 	to activate the virtual env type:
-	cd .venv
+	cd C:\Users\s.badea\SQV\.venv\Scripts
 	.\activate
 	
 	now you can start working..
@@ -31,7 +31,7 @@ To continue the developement you need to follow these steps:
 
 	pip install pyinstaller
     
-    From a python script you can generate a windows binary
+    From a python script you can generate astandalone windows binary
 	pyinstaller.exe .\sqv.py -F --onefile
 	cd dist\  (the sqv.exe will be placed in dist\ directory)
 	
