@@ -101,6 +101,7 @@ class snmp_getter:
             for varBind in varBinds:
                 #print(' = '.join([x.prettyPrint() for x in varBind]))
                 result_ = varBind[1]
+                break
         return result_
         
     def get_snmp_multiple_set(self_, ip_, station_, oid_, items_):
